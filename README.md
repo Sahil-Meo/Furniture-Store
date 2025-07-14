@@ -1,3 +1,10 @@
+# Preview of this Store Home Page
+
+<img width="1600" height="6153" alt="screencapture-localhost-5173-2025-07-14-05_14_06" src="https://github.com/user-attachments/assets/0fe6fc03-212d-41d5-9d40-823732ef6bd2" />
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

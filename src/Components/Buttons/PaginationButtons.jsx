@@ -20,12 +20,12 @@ const PaginationButtons = () => {
   };
 
   return (
-    <div className="w-full flex justify-center gap-4 text-[20px]">
+    <div className="w-full flex justify-center gap-4 text-[20px] overflow-x-auto py-4">
       {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
         <button
           key={page}
           onClick={() => handlePageChange(page)}
-          className={`rounded-lg w-12 h-12 transition duration-200 cursor-pointer ${currentPage === page
+          className={`rounded-lg min-w-12 h-12 transition duration-200 cursor-pointer ${currentPage === page
             ? 'text-white bg-ochre'
             : 'text-black bg-flow'
             }`}

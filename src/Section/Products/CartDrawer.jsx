@@ -29,7 +29,7 @@ const CartDrawer = () => {
      useEffect(() => {
           const storedCartItems = JSON.parse(localStorage.getItem('cart')) || [];
           setCartItems(storedCartItems);
-          console.log('storedCartItems', storedCartItems);
+          // console.log('storedCartItems', storedCartItems);
 
      }, [localStorage.getItem('cart')]);
 

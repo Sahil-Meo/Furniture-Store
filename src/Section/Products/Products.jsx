@@ -21,7 +21,7 @@ const Products = () => {
      });
      const useparam = useParams()
      const search = useparam.search
-     console.log(search);
+     // console.log(search);
 
 
      const handleAddToCartClick = (product) => {

@@ -4,7 +4,7 @@ import { CheckCircleIcon, HeadsetIcon, LucideHandCoins, TrophyIcon } from 'lucid
 
 const Policies = () => {
      return (
-          <div className="bg-[#FAF3EA] gap-10 lg:gap-2 p-8 lg:px-12 lg:py-20 flex flex-wrap justify-around">
+          <div className="bg-[#FAF3EA] gap-10 lg:gap-2 p-8 lg:px-12 lg:py-20 flex flex-col md:flex-row">
                <div className='flex items-center gap-4 md:gap-6'>
                     <span className=''> <TrophyIcon size={50} /> </span>
                     <div className="flex flex-col items-start">

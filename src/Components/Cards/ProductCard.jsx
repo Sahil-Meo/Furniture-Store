@@ -45,7 +45,7 @@ const ProductCard = ({ item, onCartClick }) => {
   }
 
   return (
-    <div onClick={() => handleCardClick(item)} className='bg-[#F4F5F7] cursor-pointer relative group overflow-hidden min-w-[340px] max-w-[340px] mx-auto'>
+    <div onClick={() => handleCardClick(item)} className='bg-[#F4F5F7] cursor-pointer relative group overflow-hidden min-w-[310px] sm:min-w-[340px] max-w-[340px] mx-auto'>
       <img loading="lazy" className="h-80 w-full object-cover object-center" src={`${item?.thumbnail}`} alt="item Image" />
       <div className="p-4">
         <h5 className="text-[#3A3A3A] text-xl lg:text-2xl font-semibold"> {item?.title.split(' ').slice(0, 2).join(' ')}</h5>

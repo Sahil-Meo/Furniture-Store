@@ -41,7 +41,7 @@ const FurnitureCrousal = () => {
                          setActiveIndex(swiper.realIndex);
                     }}
                >
-                    <div className="fle items-start ">
+                    <div className="fle items-start justify-start">
                          {slides.map((slide, i) => (
                               <SwiperSlide key={slide.id}>
                                    <div className="flex items-start justify-center h-full relative">
